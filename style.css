@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0; 
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; 
+  /* Fundo degradê estilo Synthwave */
+  background: linear-gradient(180deg, #05010d 0%, #1a0b2e 100%);
+}
+
+canvas { 
+  display: block; 
+  cursor: grab; /* Indica que pode clicar e girar */
+}
+
+canvas:active {
+  cursor: grabbing;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
